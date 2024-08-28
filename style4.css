@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+}
+body {
+    margin: auto;
+    height: 100%;
+    width: 1500px;
+}
+h1 {
+    text-align: center;
+}
+.form {
+    text-align: center;
+    padding: 10px;
+}
+#myDiv {
+    margin: auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 4px;
+}
+#myButton {
+    padding: 10px 30px 10px 30px;
+}
+.table {
+    margin: auto;
+    margin-top: 10px;
+    background-color: bisque;
+    height: 100px;
+    width: 600px;
+}
+th, td {
+    border: 1px solid black;
+}
+td {
+    text-align: center;
+}
+.spisok {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+#i1, #i2, #i3 {
+    /* background-color: red; */
+    width: 385px;
+    display: block;
+    cursor: pointer;
+}
+img {
+    width: 100%;
+}
+#myZapros {
+    margin-top: 10px;
+    padding: 10px 30px 10px 30px;
+}
